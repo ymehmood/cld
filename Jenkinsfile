@@ -4,7 +4,7 @@ pipeline {
     stage('stages') {
       steps {
         sh '''cd sms
-man -v'''
+mvn -v'''
       }
     }
   }
