@@ -4,7 +4,7 @@ pipeline {
     stage('stages') {
       steps {
         sh '''cd sms
-export M2_HOME=/opt/fedex/jks/apache-maven-3.2.5
+export M2_HOME=/Users/yasirmehmood/apache-maven-3.5.0
 
 mvn -v'''
       }
