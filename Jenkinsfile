@@ -5,7 +5,7 @@ pipeline {
       steps {
         sh '''cd sms
 man help
-sh \'mvn -X -DskipTests clean package\''''
+sh \'mvn -B -DskipTests clean package\''''
       }
     }
   }
