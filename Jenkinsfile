@@ -4,7 +4,7 @@ pipeline {
     stage('stages') {
       steps {
         sh '''cd sms
-sh \'mvn -B -DskipTests clean package\''''
+sh \'${M2_HOME}/bin/mvn -B -DskipTests clean package\''''
       }
     }
   }
