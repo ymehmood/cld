@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('stages') {
       steps {
-        sh '''sh \'cd cld\'
+        sh '''cd cld/sms
 sh \'mvn -B -DskipTests clean package\''''
       }
     }
